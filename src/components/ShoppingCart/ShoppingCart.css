@@ -1,0 +1,112 @@
+.checkOut {
+  display: flex;
+  padding: 20px;
+}
+
+.checkOutAd {
+  width: 98%;
+  /* height: 18%; */
+  margin-bottom: 20px;
+}
+
+.checkOutTitle {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.checkOutProduct {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.checkOutProductImage {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.checkOutProductInfo {
+  padding-left: 20px;
+}
+
+.checkOutProductName {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.checkOutProductPrice {
+  margin: 20px 0px;
+}
+
+.checkOutProductInfo span {
+  background-color: #fad840;
+  font-weight: normal;
+  font-size: 13px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.checkOutRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 165px;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  /* border-radius: 10px; */
+  position: sticky;
+  top: 100px;
+}
+
+.subTotal p {
+  padding-top: 30px;
+  font-size: x-large;
+}
+
+.subTotalGift input {
+  margin-top: 5px;
+  font-size: x-large;
+}
+
+.checkOutRight button {
+  background-color: #fad840;
+  border-radius: 10px;
+  padding: 7px 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .checkOut {
+    flex-direction: column;
+  }
+  .checkOutRight {
+    justify-content: center;
+    width: 100px;
+    height: 165px;
+    padding: 20px;
+    flex: 1rem;
+  }
+  .checkOutRight button {
+    width: 40px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+
+  .checkOutProduct img {
+    width: 80px;
+  }
+}

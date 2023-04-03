@@ -1,0 +1,251 @@
+.header {
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+}
+
+.navBar {
+  width: 99%;
+  height: 100%;
+  margin: auto;
+}
+
+.navBarHeader {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO */
+
+.logoContainer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.logo {
+  width: 100px;
+  padding-top: 11px;
+}
+
+.dotIn {
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+.borderWhite {
+  border: 1.5px solid transparent;
+  padding: 0 10px;
+}
+
+.borderWhite:hover {
+  border: 1.5px solid #fff;
+}
+
+/* LOCATION SECTION*/
+
+.locationContainer {
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.iconLocation {
+  display: flex;
+  align-items: center;
+}
+
+.deliverTo {
+  font-size: 0.8rem;
+  padding-left: 15px;
+  color: #ccc;
+}
+
+.iLocation {
+  margin-right: 5px;
+}
+
+/* SEARCHBOX */
+
+.searchBoxContainer {
+  margin-left: 15px;
+  width: 650px;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.searchBoxContainer:hover {
+  outline: 3px solid orange;
+}
+.searchSelect {
+  width: 60px;
+  background-color: rgb(230, 227, 227);
+}
+
+.searchInput {
+  width: 100%;
+  height: 100%;
+  font-size: 0.9rem;
+  padding-left: 10px;
+}
+
+.searchIcon {
+  width: 50px;
+  background-color: rgb(243, 182, 69);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+/* LANGUAGE SECTION */
+
+.languageContainer {
+  margin-left: 15px;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.languageContainer p {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+}
+.languageImage {
+  width: 20px;
+}
+
+.languageImage img {
+  width: 100%;
+  padding-right: 5px;
+}
+
+/* LOGIN SECTION */
+
+.loginContainer {
+  color: #fff;
+  margin-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.loginContainer p {
+  margin: 0;
+  color: #fff;
+}
+
+.hello {
+  font-size: 0.8rem;
+}
+
+.accountLists {
+  font-weight: 500;
+}
+
+.logout {
+  margin-left: 10px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: coral;
+  color: white;
+}
+
+.logIn {
+  margin-left: 10px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: coral;
+  color: white;
+}
+/* RETURNS SECTION */
+
+.returnOrders {
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+.returns {
+  font-size: 0.8rem;
+}
+
+.orders {
+  font-weight: 500;
+}
+
+/* CART SECTION */
+
+.cartContainer {
+  font-size: 1.1rem;
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 21px;
+}
+
+.cartContainer i {
+  color: #fff;
+}
+
+.digit {
+  color: coral;
+  font-size: 15px;
+  position: relative;
+  bottom: 15px;
+}
+
+/* BOTTOM NAVBAR */
+
+.navBottom {
+  background-color: #232f3e;
+}
+
+.navBottom ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 5px 30px 10px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBottom ul li {
+  margin-right: 20px;
+  color: white;
+
+  font-weight: 500;
+}
+
+.navBottom ul li img {
+  width: 250px;
+}
+
+@media (max-width: 600px) {
+  .navBottom {
+    display: none;
+  }
+  .locationContainer {
+    display: none;
+  }
+  .accountLists {
+    display: none;
+  }
+  .languageContainer {
+    display: none;
+  }
+  .returnOrders {
+    display: none;
+  }
+  .searchBoxContainer {
+    display: none;
+  }
+}

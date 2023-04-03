@@ -1,0 +1,72 @@
+.singleProduct {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 5px 0;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.colLeft img {
+  padding: 0;
+  width: 350px;
+  height: 350;
+  border: 1px solid lightgray;
+  margin-top: 80px;
+}
+
+.colLeft {
+  padding: 20px;
+}
+
+.colRight {
+  padding: 0 120px;
+}
+
+.colRight p {
+  color: gray;
+}
+
+.colRight h1 {
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.colRight h4 {
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 500;
+  color: #b12704;
+}
+
+.colRight button {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  padding: 20px 40px;
+  background-color: #ff9900;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .singleProduct {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px 0;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .colLeft img {
+    width: 200px;
+  }
+  .colRight {
+    padding: 0 10px;
+  }
+}
